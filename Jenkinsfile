@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs "NodeJS_18" // Pastikan sudah dikonfigurasi di Jenkins 
+        nodejs "NodeJS_24" 
     }
 
     stages {
