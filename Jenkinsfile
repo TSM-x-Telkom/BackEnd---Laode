@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     tools {
-        nodejs "NodeJS_18" // Pastikan di Jenkins sudah ada NodeJS versi ini
+        nodejs "NodeJS_18" // Pastikan sudah dikonfigurasi di Jenkins 
     }
 
     stages {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'git@github.com:username/backend-repo.git'
+                    url: 'git@github.com:TSM-x-Telkom/BackEnd---Laode.git'
             }
         }
 
